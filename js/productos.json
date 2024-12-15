@@ -1,0 +1,44 @@
+[
+    {
+        "codigo": "01",
+        "nombre": "Aurora",
+        "precio": 560000.00,
+        "imagen": "./img/sillongris.jpg",
+        "cantidad": 1
+    },
+    {
+        "codigo": "02",
+        "nombre": "Cenicienta",
+        "precio": 600000.00,
+        "imagen": "./img/sillon_naranja.jpg",
+        "cantidad": 1
+    },
+    {
+        "codigo": "03",
+        "nombre": "Blancanieves",
+        "precio": 700000.00,
+        "imagen": "./img/sillon_blanco.jpg",
+        "cantidad": 1
+    },
+    {
+        "codigo": "04",
+        "nombre": "Bella",
+        "precio": 800000.00,
+        "imagen": "./img/sillon_crema.jpg",
+        "cantidad": 1
+    },
+    {
+        "codigo": "05",
+        "nombre": "Ariel",
+        "precio": 900000.00,
+        "imagen": "./img/sillon_naranja2.jpg",
+        "cantidad": 1
+    },
+    {
+        "codigo": "06",
+        "nombre": "Rapunzel",
+        "precio": 900000.00,
+        "imagen": "./img/sillon_gris_3.jpg",
+        "cantidad": 1
+    }
+]

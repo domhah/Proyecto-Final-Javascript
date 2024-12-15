@@ -1,0 +1,263 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Garamond_Regular";
+    background-color:rgb(170, 206, 207);
+  }
+  
+  nav .container-fluid{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: rgb(235, 234, 234);
+  }
+
+  header .logo {
+    width: 100px;
+  }
+
+  header .btn {
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  main .fondo_proyecto section h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 56px;
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .subtitulo {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  main .fondo_proyecto .productos_sillones_inicio {
+    justify-content: center;
+    display: grid;
+    grid-area: sillones;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding-left: 100px;
+    margin-bottom: 50px;
+
+  }
+
+  .contenedor_sillones {
+    border-color: black;
+    border-radius: 25px;
+    border-width: 2px;
+    border-style: solid;
+    margin: 20px;
+    height: 320px;
+    width: 400px;
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(235, 234, 234);
+    
+  }
+
+  .sillon_imagen {
+    padding-top: 15px;
+    width:300px;
+    border-radius: 15px;
+
+  }
+
+  .sillon_nombre {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 550;
+    margin-bottom: 5px;
+
+  }
+
+  .sillon_precio{
+    margin-top: 0;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 7px;
+  }
+
+  .agregar{
+    margin-top: 0;
+    font-size: 17px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgb(70, 94, 100);
+  }
+
+  .carrito_sillones{
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+  }
+
+  .carrito_sillones h3 {
+    margin-left: 10px;
+    padding-top: 15px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .carrito_imagen{
+    width: 100px;
+    margin-left: 40px;
+  }
+
+  .carrito {
+    display: flex;
+    margin-bottom: 30px;
+
+  }
+  
+  .carrito_nombre {
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 550;
+  }
+
+  .carrito_precio {
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .botonresta {
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgb(70, 94, 100);
+  }
+
+  .carrito_cantidad {
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .botonsuma {
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgb(70, 94, 100);
+  }
+
+  .eliminar {
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgb(70, 94, 100);
+    margin-left: 25px;
+    margin-top: 7px;
+    margin-bottom: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+
+  .total{
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: 23px;
+    font-weight: 600;
+  }
+
+  .botonformulario{
+    font-size: 19px;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgb(22, 27, 59);
+  }
+
+  .formulario{
+    background-color: rgb(91, 137, 165);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+  }
+
+  form {
+    margin-left:10px;
+  }
+
+  form h3{
+    padding-top: 15px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  footer {
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px;
+  }
+
+  footer h4 {
+    font-size: 17px;
+    color: black;
+    font-weight: 400;
+  }
+
+  footer a img {
+    padding: 10px;
+    width: 45px;
+    display: inline-block;
+    text-decoration: none;
+  }
+
